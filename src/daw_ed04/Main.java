@@ -8,7 +8,7 @@ package daw_ed04;
 public class Main {
     public static void main(String[] args) {
         CCuenta a;
-        a = new CCuenta("Felipe Segundo","2222-2222-22-1230456789", 2222);
+        a = new CCuenta("Felipe Primero","2222-2222-22-1230456789", 2222);
         double cantidad = 2300;
         int operacion = 1; 
         operacion = 2;
