@@ -32,7 +32,7 @@ public class Main {
                     System.out.println(e.getMessage());
                 }
                 break;
-            case 3:
+            case 3: //Ingreso en cuenta
                 try {
 
                     System.out.println("Ingreso en cuenta");
@@ -41,6 +41,9 @@ public class Main {
                 } catch (Exception e) {
                     System.out.print(e.getMessage());
                 }
+                break;
+            default:
+                System.out.println("Esta opción no es válida.");
                 break;
 
         }
