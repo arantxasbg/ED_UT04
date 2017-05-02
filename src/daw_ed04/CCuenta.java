@@ -57,7 +57,7 @@ public class CCuenta {
      * @throws java.lang.Exception
      */
     public void setContrasenia(String antigua, String nueva)throws Exception{
-        if(contador == 3) throw new Exception ("La cuenta se ha bloqueado.");
+        if(contador == 3) throw new Exception ("Ha superado el número de intentos.");
         if(!antigua.equals(this.contrasenia)) contador++;
         this.contrasenia = nueva;
         this.contador = 0;
